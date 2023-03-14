@@ -12,7 +12,8 @@
         tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/actionGameFragment"
-            app:destination="@id/gameFragment" />
+            app:destination="@id/gameFragment"
+            app:popUpTo="@id/mainFragment" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
