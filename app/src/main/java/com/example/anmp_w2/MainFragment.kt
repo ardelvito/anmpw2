@@ -68,6 +68,11 @@ class MainFragment : Fragment() {
 //            Navigation.findNavController(it).navigate(action)
 //        }
 
+//        val optBtn = view.findViewById<Button>(R.id.btnOption)
+//        optBtn.setOnClickListener{
+//            val action = MainFragmentDirections.actionOptionFragment()
+//            Navigation.findNavController(it).navigate(action)
+//        }
 
 
         //Set and Call random integer function
